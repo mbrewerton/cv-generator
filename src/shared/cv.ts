@@ -6,6 +6,18 @@ export interface Experience {
   points: string[];
 }
 
+export interface Subject {
+  name: string;
+  grade: string|number;
+}
+
+export interface Education {
+  school: string;
+  level: string;
+  subjects: Subject[];
+  dateRange: string;
+}
+
 export interface Cv {
   name: string;
   jobTitle: string;
@@ -13,4 +25,5 @@ export interface Cv {
   summaryPoints: string[];
   professionalExperiences: Experience[];
   personalExperiences: Experience[];
+  education: Education[];
 }

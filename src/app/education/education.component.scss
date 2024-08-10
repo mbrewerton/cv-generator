@@ -1,0 +1,13 @@
+@use '../../shared/variables';
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: solid thin;
+}
+
+td,th {
+  padding: variables.$pad-xsm variables.$pad-md;
+}

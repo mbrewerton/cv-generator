@@ -1,0 +1,17 @@
+<h3 class="section_title">{{education.school}}</h3>
+<h4 class="date">{{education.dateRange}}</h4>
+<h4 class="meta">{{education.level}}</h4>
+<table>
+  <thead>
+  <tr>
+    <th>Subject</th>
+    <th>Grade</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let subject of education.subjects">
+    <td>{{subject.name}}</td>
+    <td>{{subject.grade}}</td>
+  </tr>
+  </tbody>
+</table>

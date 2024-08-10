@@ -4,11 +4,12 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {Cv} from "../shared/cv";
 import {NgForOf, NgIf} from "@angular/common";
 import {ExperienceComponent} from "./experience/experience.component";
+import {EducationComponent} from "./education/education.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HttpClientModule, NgIf, NgForOf, ExperienceComponent],
+  imports: [RouterOutlet, HttpClientModule, NgIf, NgForOf, ExperienceComponent, EducationComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

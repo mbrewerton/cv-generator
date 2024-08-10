@@ -32,4 +32,11 @@
       <app-experience [experience]="experience"></app-experience>
     </div>
   </div>
+
+  <div class="education_list block" *ngIf="cv.education && cv.education.length">
+    <h2>Education</h2>
+    <div class="education" *ngFor="let education of cv.education">
+      <app-education [education]="education"></app-education>
+    </div>
+  </div>
 </div>
