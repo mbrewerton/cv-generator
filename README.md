@@ -1,27 +1,24 @@
-# CvGenerator
+# CV Generator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+CV Generator is an Angular 17 app which allows for easy generation of a CV using JSON. This means that it is simple to create a CV and tailor it to specific job roles without creating multiple Word documents.
 
-## Development server
+Styling can be kept the same across different CVs, or you can create your own entire CV "theme" by modifying the HTML and SCSS.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Creating a CV is now as easy as 123.**
 
-## Code scaffolding
+1. Edit the JSON file
+2. Run the app
+3. Print the page (to PDF or physical copy)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Creating/Updating your cv
 
-## Build
+To start creating/updating your CV, simply open up the `src/assets/data.json` file and modify its contents. Run the application and ensure you're happy, and print!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng serve` to launch the application. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Running unit tests
+## Modifying the template
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To modify the template of the CV, simply edit the HTML and/or SCSS files to tailor it to your liking. You can even modify the data structure if required and use this as a boilerplate to get started.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+**Good luck on the job applications!**
