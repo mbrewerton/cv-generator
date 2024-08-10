@@ -1,0 +1,72 @@
+@use '../shared/variables';
+
+.app {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+
+  > div {
+    margin: variables.$pad-lg 0;
+  }
+}
+
+.cv-header {
+  text-align: center;
+  margin: variables.$pad-lg 0;
+
+  .contacts {
+    margin: variables.$pad-md 0;
+  }
+
+  ul li {
+    display: inline-block;
+    padding: 0 variables.$pad-md;
+
+    &:not(:last-of-type) {
+      border-right: 1px solid;
+    }
+  }
+}
+
+.block {
+  h2 {
+    margin-bottom: variables.$pad-xsm;
+  }
+}
+
+.meta {
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: variables.$pad-xsm;
+}
+
+.experiences {
+  .experience {
+    margin-bottom: variables.$pad-md;
+    padding-bottom: variables.$pad-md;
+    border-bottom: 1px solid;
+
+    .experience_date {
+      font-size: 0.9em;
+      margin-bottom: variables.$pad-xsm;
+    }
+
+    .experience_title {
+      margin-bottom: variables.$pad-xsm;
+    }
+
+    .experience_summary {
+      margin-bottom: variables.$pad-sm;
+    }
+
+
+  }
+}
+
+.experiences, .summary-points {
+  ul li {
+    list-style: disc;
+    margin-left: 2em;
+    padding-bottom: 0.2em;
+  }
+}
