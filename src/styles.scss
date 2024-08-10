@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@use './shared/variables';
 html, body{
   height: 100%;
   width: 100%;
@@ -24,4 +25,10 @@ ul {
 
 .font-300 {
   font-weight: 300;
+}
+
+.meta {
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: variables.$pad-xsm;
 }

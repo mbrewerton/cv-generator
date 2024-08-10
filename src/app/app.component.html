@@ -21,18 +21,15 @@
 
   <div class="experiences block">
     <h2>Professional Experience</h2>
-    <div class="experience" *ngFor="let experience of cv.professionalExperiences">
-      <h3 class="experience_title">{{ experience.title }}</h3>
-      <h4 class="experience_date">{{ experience.dateRange }}</h4>
-      <p class="meta">Primary skills: {{ experience.primarySkills }}</p>
-      <div class="experience_summary">
-        {{ experience.summary }}
-      </div>
-      <ul class="experience_highlights">
-        <li *ngFor="let point of experience.points">
-          {{ point }}
-        </li>
-      </ul>
+    <div *ngFor="let experience of cv.professionalExperiences">
+      <app-experience [experience]="experience"></app-experience>
+    </div>
+  </div>
+
+  <div class="experiences block" *ngIf="cv.personalExperiences && cv.personalExperiences.length">
+    <h2>Personal Experience</h2>
+    <div class="experience" *ngFor="let experience of cv.personalExperiences">
+      <app-experience [experience]="experience"></app-experience>
     </div>
   </div>
 </div>

@@ -1,0 +1,13 @@
+<div class="experience">
+  <h3 class="experience_title">{{ experience.title }}</h3>
+  <h4 class="experience_date">{{ experience.dateRange }}</h4>
+  <p class="meta">Primary skills: {{ experience.primarySkills }}</p>
+  <div class="experience_summary">
+    {{ experience.summary }}
+  </div>
+  <ul class="experience_highlights">
+    <li *ngFor="let point of experience.points">
+      {{ point }}
+    </li>
+  </ul>
+</div>

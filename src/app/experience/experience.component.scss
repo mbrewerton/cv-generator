@@ -1,0 +1,30 @@
+@use '../../shared/variables';
+
+.experience {
+  margin-bottom: variables.$pad-md;
+  padding-bottom: variables.$pad-md;
+  border-bottom: 1px solid;
+
+  .experience_date {
+    font-size: 0.9em;
+    margin-bottom: variables.$pad-xsm;
+  }
+
+  .experience_title {
+    margin-bottom: variables.$pad-xsm;
+  }
+
+  .experience_summary {
+    margin-bottom: variables.$pad-sm;
+  }
+
+
+}
+
+.experience_highlights {
+  li {
+    list-style: disc;
+    margin-left: 2em;
+    padding-bottom: 0.2em;
+  }
+}
