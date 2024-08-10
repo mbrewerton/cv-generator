@@ -1,0 +1,51 @@
+﻿{
+  "name": "John Doe",
+  "jobTitle": "A Fantastic Job",
+  "contacts": [
+    "john@notanemailaddress.zyx",
+    "01234567890",
+    "https://a-good-link-to.socials"
+  ],
+  "summaryPoints": [
+    "Over 10 years working as a Fantastic Person",
+    "Always working to a high standard",
+    "More proficiencies that bring benefit to this role"
+  ],
+  "professionalExperiences": [
+    {
+      "title": "A Company",
+      "dateRange": "May 2023 - Present",
+      "primarySkills": "Relevant Skill, Another skill, perhaps a programming language, communication",
+      "summary": "I was hired into this role at some seniority level to solve problems for the business. I was a great collaborator and performed tasks efficiently and to high standards.",
+      "points": [
+        "Used my aforementioned skills to meet tight deadlines efficiently",
+        "Managed stressful situations well and kept team morale high",
+        "More points that highlight how I excelled here"
+      ]
+    }
+  ],
+  "personalExperiences": [
+    {
+      "title": "A Personal Experience Relevant to Role",
+      "primarySkills": "Still Relevant Skill, Keep it Relevant to Role",
+      "summary": "An optional personal experience, but these can be useful for roles such as programming where hobbyists have a portfolio.",
+      "points": [
+        "Same format as professional experiences",
+        "Kept relevant to the role(s) I'm applying for"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "A Secondary School",
+      "level": "GCSE",
+      "dateRange": "2006 - 2011",
+      "subjects": [
+        {
+          "name": "Maths",
+          "grade": "A*"
+        }
+      ]
+    }
+  ]
+}
