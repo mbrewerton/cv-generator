@@ -28,12 +28,18 @@
   }
 }
 
+.summary-points {
+  ul li {
+    //font-weight: bold;
+
+    &:not(:last-of-type) {
+      padding-bottom: 0.4em;
+    }
+  }
+}
+
 .block {
   h2 {
     margin-bottom: variables.$pad-xsm;
   }
 }
-
-
-
-
